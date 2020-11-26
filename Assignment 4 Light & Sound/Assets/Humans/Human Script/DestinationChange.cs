@@ -14,7 +14,7 @@ public class DestinationChange : MonoBehaviour
         {
             xPos = Random.Range(6, 14);
             zPos = Random.Range(-14, -3);
-            this.gameObject.transform.position = new Vector3(xPos, 4.0039f, zPos); 
+            this.gameObject.transform.position = new Vector3(xPos, 3f, zPos); 
          }
     }
 }
